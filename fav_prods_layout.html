@@ -325,8 +325,11 @@
             divs = [...divs, ...document.getElementById(`article_${sect}`).children];
             
             if (sect < sections) {
+
                 return addListeners(sect + 1)
+
             } else {
+
                 for (let key in divs) {
                     let el = divs[key];
 
