@@ -35,6 +35,7 @@
                         height: 372px;
                         margin: 0 12px 0 12px;
                         padding: 6px;
+                        margin-top: 12px;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
@@ -49,6 +50,7 @@
                         height: 372px;
                         margin: 0 12px 0 12px;
                         padding: 6px;
+                        margin-top: 12px;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
@@ -63,6 +65,7 @@
                         height: 372px;
                         margin: 0 12px 0 12px;
                         padding: 6px;
+                        margin-top: 12px;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
@@ -77,6 +80,7 @@
                         height: 372px;
                         margin: 0 12px 0 12px;
                         padding: 6px;
+                        margin-top: 12px;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
@@ -115,6 +119,7 @@
                         height: 372px;
                         margin: 0 12px 0 12px;
                         padding: 6px;
+                        margin-top: 12px;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
@@ -129,6 +134,7 @@
                         height: 372px;
                         margin: 0 12px 0 12px;
                         padding: 6px;
+                        margin-top: 12px;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
@@ -143,6 +149,7 @@
                         height: 372px;
                         margin: 0 12px 0 12px;
                         padding: 6px;
+                        margin-top: 12px;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
@@ -157,6 +164,7 @@
                         height: 372px;
                         margin: 0 12px 0 12px;
                         padding: 6px;
+                        margin-top: 12px;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
@@ -171,6 +179,7 @@
                         height: 372px;
                         margin: 0 12px 0 12px;
                         padding: 6px;
+                        margin-top: 12px;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
@@ -185,6 +194,7 @@
                         height: 372px;
                         margin: 0 12px 0 12px;
                         padding: 6px;
+                        margin-top: 12px;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
@@ -199,6 +209,7 @@
                         height: 372px;
                         margin: 0 12px 0 12px;
                         padding: 6px;
+                        margin-top: 12px;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
@@ -213,6 +224,7 @@
                         height: 372px;
                         margin: 0 12px 0 12px;
                         padding: 6px;
+                        margin-top: 12px;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
@@ -252,6 +264,7 @@
                         height: 372px;
                         margin: 0 12px 0 12px;
                         padding: 6px;
+                        margin-top: 12px;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
@@ -266,6 +279,7 @@
                         height: 372px;
                         margin: 0 12px 0 12px;
                         padding: 6px;
+                        margin-top: 12px;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
@@ -280,6 +294,7 @@
                         height: 372px;
                         margin: 0 12px 0 12px;
                         padding: 6px;
+                        margin-top: 12px;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
@@ -294,6 +309,7 @@
                         height: 372px;
                         margin: 0 12px 0 12px;
                         padding: 6px;
+                        margin-top: 12px;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
@@ -316,10 +332,10 @@
         const addListeners = (sect = 1) => {
             let section = document.getElementById(`sect_${sect}`)
 
-            section.addEventListener("mouseenter", (e) => {
+            section.addEventListener("mouseenter", e => {
                 e.target.style.background = "#F1F1F1"
             });
-            section.addEventListener("mouseleave", (e) => {
+            section.addEventListener("mouseleave", e => {
                 e.target.style.background = "#FFFFFF"
             });
 
@@ -334,11 +350,11 @@
                 for (let key in divs) {
                     let el = divs[key];
 
-                    el.addEventListener("mouseenter", (e) => {
+                    el.addEventListener("mouseenter", e => {
                         e.target.style.background = "#CB9286"
                         e.target.style.color = "#FFFFFF"
                     });
-                    el.addEventListener("mouseleave", (e) => {
+                    el.addEventListener("mouseleave", e => {
                         e.target.style.background = "#FFFFFF"
                         e.target.style.color = "#000000"
                     });
